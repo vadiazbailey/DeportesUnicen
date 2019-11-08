@@ -24,6 +24,11 @@ class AlumnosView{
         $this ->smarty-> display('templates/listadoAlumnos.tpl');
     }
 
+    public function displayFormAlumno($alumno){
+        $this ->smarty-> assign ('alumno', $alumno);
+        $this ->smarty-> display('templates/formEditarAlumno.tpl');
+    }
+
     public function displayAdministrador($alumnos, $facultades){
         $this ->smarty->assign('facultades', $facultades);
         $this ->smarty->assign('alumnos', $alumnos);

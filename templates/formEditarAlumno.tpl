@@ -1,5 +1,5 @@
 {* Formulario para editar alumnos *}
-{include file= header.tpl}
+{include file= "header.tpl"}
 <form class="formulario" method="POST" action="{BASE_URL}editAlumno">
      <label>Editar información sobre alumno seleccionado</label>
     <input class= "alumno" name="alumno" type="text" value="{$alumno->nombre}"/>
@@ -10,4 +10,4 @@
     <input name="id"  type="hidden" value="{$alumno->id_alumno}"/>
     <button type="submit" class="enviarDatos">Editar Alumno</button>
 </form>
-{include file=footer.tpl}
+{include file="footer.tpl"}

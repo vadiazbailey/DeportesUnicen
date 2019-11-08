@@ -45,7 +45,7 @@ class AlumnosController{
             $facultad=($_POST['facultad']);
 
         }      
-        $this->model->addAlumno($nombre,$apellido,$DNI,$email,$celular, $facultad);
+        $this->model->addAlumno($nombre,$apellido,$DNI,$email,$celular,$facultad);
         header("Location: " . ALUMNOS);
     }
     //Función que elimina un alumno
@@ -68,8 +68,14 @@ class AlumnosController{
 
         }
 
-         $this->model->editAlumno ($id_alumno, $nombre, $apellido, $DNI, $email, $celular, $facultad);
+         $this->model->editAlumno ($id_alumno, $nombre, $apellido, $DNI, $email, $celular,$facultad);
          header ("Location: " . ALUMNOS);
     }
+
+    public function displayFormAlumno($id_alumno){
+        $alumno = $this->model->getAlumnos($id_alumno);
+        $this->view->displayFormAlumno($alumno);
+    }
+
 
 }

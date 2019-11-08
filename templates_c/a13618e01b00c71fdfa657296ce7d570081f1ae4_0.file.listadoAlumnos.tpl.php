@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-08 15:59:42
+/* Smarty version 3.1.33, created on 2019-11-08 18:39:14
   from 'C:\xampp\htdocs\Deportes\templates\listadoAlumnos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dc582de12bde5_93131887',
+  'unifunc' => 'content_5dc5a842eb43a2_52751911',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a13618e01b00c71fdfa657296ce7d570081f1ae4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Deportes\\templates\\listadoAlumnos.tpl',
-      1 => 1573225179,
+      1 => 1573234463,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5dc582de12bde5_93131887 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dc5a842eb43a2_52751911 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -35,14 +35,13 @@ $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_sm
 <input class="DNI" name="DNI" type="number" placeholder="DNI" value=""/>
 <input class="email" name="email" type="email" placeholder="Email" value=""/>
 <input class="celular" name="celular" type="number" placeholder="Celular" value=""/>
-<label>Facultad</label>
 <select name="facultad">
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['facultades']->value, 'facultad');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['facultad']->value) {
 ?>
-        <option value="<?php echo $_smarty_tpl->tpl_vars['facultad']->value->nombre_facultad;?>
+        <option value="<?php echo $_smarty_tpl->tpl_vars['facultad']->value->id_facultad;?>
 "><?php echo $_smarty_tpl->tpl_vars['facultad']->value->nombre_facultad;?>
 </option>   
     <?php
@@ -62,7 +61,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['alumno']->value) {
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->DNI;?>
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->email;?>
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->celular;?>
--<a href='edit/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
+-<a href='editAlumno/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
 '>Editar</a> - <a href='eliminarAlumno/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
 '>Eliminar</a></li>
 <?php
