@@ -1,0 +1,1315 @@
+#menu{
+    display: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+    float: left;
+    width: 60%; 
+    font-size: 33px;
+}
+.titulo{
+    margin-top:60px;
+    margin-left: 15px;
+}
+.ocultarFila{
+    visibility: collapse;
+}
+.index section div article h2 {
+font-family: arial;
+}
+.index nav{
+width: 100%;
+}
+p{
+    text-align: justify;
+    color: #2d3436;
+}
+header {
+    box-sizing: border-box;
+    background-color:#27ae60;
+    display: block;
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.logo{
+    width: 225;
+    height: 85%; 
+    float:right;
+    margin: 10px 25px;
+    border-radius: 9px;
+}
+nav{
+    clear: both;
+    text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
+
+}
+nav ul li{
+    border: solid 1px color white;
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+nav ul li a:hover {
+    color: black;
+    background: white;
+}
+footer ul li{
+  border: solid 1px color white;
+    display: inline-block;
+    color: white;
+    background-color: darkblue;
+    padding: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    display: inline-block;
+}
+section{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+.historial{
+    margin: 0px 0px 0px 15px;
+    float: left;
+    width: 65%;
+}
+.history{
+    text-align: justify;
+    font-family: arial;
+    font-style: oblique;
+    width: 90%;
+    float: left;
+}
+.copaform{
+    clear: both; 
+    height: auto;
+    display: inline-block;
+    width: 85%;
+    padding: 5%;
+    border: dashed 2px black;
+}
+.copas{ 
+   width: 55%;
+   float: left;
+   padding: 5px 0px 15px 50px;
+}
+.formulario{
+    width: 30%;
+    height: auto;
+    float: right;
+    border: #2d3436;
+    border-style: double;
+    padding: 15px; 
+    text-align: center;
+}
+.enviar{
+    border: black 2px solid;
+    color: black;
+    background-color: rgb(250, 250, 16);
+    border-radius: 2px;
+}
+.formulario input{
+    border: black 1px solid;
+    color: black;
+    background-color: rgb(250, 250, 16);
+    border-radius: 2px;
+
+
+} 
+.form ul li{
+    text-decoration: none;
+}
+.formulario h2{
+    text-align: center;
+}
+footer{
+    clear: both;
+    text-align: center;
+    background-color: darkblue;
+}
+.listadodeportes {
+    clear: both;
+    text-align: center;
+    background-color: aquamarine;
+    display: block;
+}
+.listadodeportes a{
+    text-decoration: none;
+    color: #20bf6b;
+}
+figure{
+    float: right;
+    width: 28%;
+    height: 100%;
+    margin: 0px 25px;
+}
+.mascota{
+    width: 100%;
+    height: 500px;
+    margin: 80px 0px;
+}
+.leyenda .history{
+    width: 65%;
+    margin: 0px 0px 0px 25px;
+}
+.leyenda{
+display: block;
+width: 100%;
+}
+.fechagrafica{
+    clear: both;
+    width: 100%;
+    height: 450px;
+}
+.fechagrafica .graficodecampeones img{
+    width: 100%;
+}
+.fixcha{
+    float: right;
+    width: 48%;
+    border:#2d3436 2px solid;
+    margin: 0px 4px 40px 0px;
+}
+.fixture{
+    border: #2d3436 1px solid;
+    padding: 25px;  
+}
+.fixture a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+font-size: 20px;
+}
+.fecha{
+    /*height*/
+    border: #2d3436 2px ;
+    padding: 25.25px 90px;
+}
+.fixture h2{
+    color: red;
+}
+.fecha h2{
+    color: #27ae60;
+}
+.graficodecampeones{
+    float: left;
+    border: #2d3436 2px solid;
+    width: 48%;
+}
+table, tr, td{
+    border: black 1px solid;
+    border-spacing: 0px;
+    border-radius: 2px;
+    text-align: center;
+       
+}
+.tablaSugerencia {
+    border: black 1px solid;
+    border-spacing: 0px;
+    border-radius: 2px;
+    text-align: center;
+    width: 100%;
+}
+.datosFormSugerencia{
+    background-color: rgba(17, 130, 114, 0.829);
+    padding: 2%;
+}
+.lugar{
+    background-color: rgb(165, 172, 179);
+    color: aliceblue;
+    text-align: center;
+}
+.listado{
+    padding: 15px 300px;
+    border: darkblue solid 5px;
+}
+.tableS{
+    width: 100%;
+}
+.formS{
+    background-color: rgba(16, 109, 96, 0.829);
+    padding: 2% 8%;
+}
+.enviarDatos{
+    margin: 3% 0% 0% 22%;
+}
+.mascotapiada{
+    width: 80%;
+    padding: 0px 0px 0px 30px;
+}
+.anillos{
+    margin-left: 10%;
+    width: 80%;
+}
+.index footer{
+    width: 100%;
+}
+.arte header{
+    background-color: rgba(255, 0, 0, 0.829);
+    color: white;
+}
+.arte nav{
+    background-color: antiquewhite;
+    color:rgba(255, 0, 0, 0.829);
+}
+.arte nav li{
+    border: solid 1px color white;
+    background-color: antiquewhite;
+}
+.arte nav li a {
+    color: rgba(255, 0, 0, 0.829);;
+}
+.arte nav li a:hover{
+    color:rgba(255, 0, 0, 0.829);
+    background: white;
+}
+.arte footer{
+    background-color: rgba(255, 0, 0, 0.829);
+}
+.arte footer li{
+    border: solid 1px color white;
+    background-color: rgba(255, 0, 0, 0.829);
+}
+.arte .listadodeportes{
+    background-color: antiquewhite;
+}
+.arte .listadodeportes a{
+    color: rgba(255, 0, 0, 0.829);;
+}
+.econ header{
+    background-color: rgb(17, 17, 128);
+    color: white;
+}
+.econ nav{
+    background-color:  rgb(11, 11, 92);
+    color:white;
+}
+.econ nav li{
+    border: solid 1px color white;
+    background-color:  rgb(11, 11, 92);
+}
+.econ nav li a:hover{
+    color: rgb(11, 11, 92);
+    background: white;
+}
+.econ .listadodeportes{
+    background-color: rgb(17, 17, 128);
+}
+.econ .listadodeportes a{
+    color: white;
+}
+.vete header{
+    background-color:rgb(90, 11, 90);
+    color: white;
+}
+.vete nav{
+    background-color:violet;
+    color:white;
+}
+.vete nav li{
+    border: solid 1px color white;
+    background-color: violet;
+}
+.vete nav li a:hover{
+    color:violet;
+    background: white;
+}
+.vete footer{
+    background-color:rgb(90, 11, 90) ;
+    color: white ;
+}
+.vete footer li{
+    border: solid 1px color white;
+    background-color:rgb(90, 11, 90);
+}
+.vete .listadodeportes{
+    background-color: violet;
+}
+.vete .listadodeportes a{
+    color: white;
+}
+.exa header{
+    background-color:rgb(250, 250, 16);
+}
+.exa header h1{
+    color: black;
+}
+.exa nav{
+    background-color: black;
+    color:rgb(243, 243, 86);
+}
+.exa nav li{
+    border: solid 1px color white;
+    background-color: black;
+}
+.exa nav li a:hover{
+    color:black;
+    background: rgb(243, 243, 86);
+}
+.exa footer{
+    background-color: black;
+    color: rgb(250, 250, 16);
+}
+.exa footer li{
+    border: solid 1px color white;
+    background-color:black;
+}
+.exa .listadodeportes{
+    background-color: rgb(250, 250, 16);
+}
+.exa .listadodeportes a{
+    color: black;
+}
+.dere header{
+    background-color: magenta;
+    color: white;
+}
+.dere header h1{
+    color: blue;
+}
+.dere nav{
+    background-color: blue;
+    color:blue;
+}
+.dere nav li{
+    border: solid 1px color white;
+    background-color:blue;
+}
+.dere nav li a {
+    color: white;
+}
+.dere nav li a:hover{
+    color:magenta;
+    background: white;
+}
+.dere footer{
+    background-color:rgb(172, 23, 85);
+}
+.dere footer li{
+    border: solid 1px color white;
+    background-color: rgb(172, 23, 85);
+}
+.dere .listadodeportes{
+    background-color: rgb(65, 62, 62);
+}
+.dere .listadodeportes a{
+    color: white;
+}
+.agro header{
+    background-color: rgb(139, 10, 38) ;
+    color: white;
+}
+.agro nav{
+    background-color: rgb(6, 80, 6);
+}
+.agro nav li{
+    border: solid 1px color white;
+    background-color:rgb(6, 80, 6);
+}
+.agro nav li a {
+    color: rgb(222, 240, 190);
+}
+.agro nav li a:hover{
+    color:rgb(6, 80, 6);
+    background: white;
+}
+.agro footer{
+    background-color: rgb(139, 10, 38);
+    color:rgb(139, 10, 38);
+}
+.agro footer li{
+    border: solid 1px color white;
+    background-color:rgb(139, 10, 38);
+}
+.agro .listadodeportes{
+    background-color: rgb(6, 80, 6);
+}
+.agro .listadodeportes a{
+    color: white;
+}
+.huma header{
+    background-color:rgb(9, 9, 107);
+}
+.huma header h1{
+    color: goldenrod;
+}
+.huma nav{
+    background-color: goldenrod;
+}
+.huma nav li{
+    border: solid 1px color white;
+    background-color: goldenrod;
+}
+.huma nav li a {
+    color: black;
+}
+.huma nav li a:hover{
+    color:rgb(224, 224, 63); 
+    background: white;
+}
+.huma footer{
+    background-color: goldenrod;
+}
+.huma footer li{
+    border: solid 1px color white;
+    background-color: goldenrod;
+}
+.huma .listadodeportes{
+    background-color: rgb(9, 9, 107);
+}
+.huma .listadodeportes a{
+    color: white;
+}
+.inge header{
+    background-color: rgb(4, 105, 4);
+}
+.inge nav{
+    background-color: blue;
+}
+.inge nav li{
+    border: solid 1px color white;
+    background-color: blue;
+}
+.inge nav li a {
+    color:white;
+}
+.inge nav li a:hover{
+    color: rgb(4, 105, 4);
+    background: white;
+}
+.inge footer{
+    background-color: rgb(4, 105, 4);
+}
+.inge footer li{
+    border: solid 1px color white;
+    background-color: rgb(4, 105, 4);
+}
+.inge .listadodeportes{
+    background-color: blue;
+}
+.inge .listadodeportes a{
+    color: white;
+}
+.queq header{
+    background-color: rgb(16, 167, 146, 0.829);
+    color: white;
+}
+.queq nav{
+    background-color:rgb(24, 24, 107);
+}
+.queq nav li{
+    border: solid 1px color white;
+    background-color: rgb(24, 24, 107);
+}
+.queq nav li a:hover{
+    color:rgb(24, 24, 107);
+    background: white;
+}
+.queq footer{
+    background-color: rgb(16, 167, 146, 0.829);
+}
+.queq footer li{
+    border: solid 1px color white;
+    background-color: rgb(16, 167, 146, 0.829);
+}
+.queq .listadodeportes{
+    background-color: rgb(24, 24, 107);
+}
+.queq .listadodeportes a{
+    color: white;
+}
+.soc header{
+    background-color: rgb(233, 75, 17);
+}
+.soc header h1{
+    color: black;
+}
+.soc nav{
+    background-color: black;
+}
+.soc nav li{
+    border: solid 1px color white;
+    background-color: black;
+}
+.soc nav li a {
+    color: white;
+}
+.soc nav li a:hover{
+    color:black;
+    background:rgb(233, 75, 17);
+}
+.soc footer{
+    background-color: rgb(233, 75, 17);
+}
+.soc footer li{
+    border: solid 1px color white;
+    background-color: rgb(233, 75, 17);
+}
+.soc .listadodeportes{
+    background-color: black;
+}
+.soc .listadodeportes a{
+    color: white;
+}
+canvas{
+    pointer-events: none;
+}
+body{
+    width: 100%;
+}
+@media only screen and (min-width:320px) and (max-width:764px){
+    #menu {
+        display: block;
+        background-color: darkblue;
+        width: 95%;
+        margin-block-start: 2%;
+        color: white;
+        font-size: 96%;
+        padding-block-start: 2%;
+        padding-inline-start: 5%;
+        padding-block-end: 2%;
+    }
+    .agro #menu {
+        background-color: rgb(6, 80, 6);
+    }
+    .agro #menu li{
+        border: solid 1px color white;
+        background-color:rgb(6, 80, 6);
+    }
+    .agro #menu li a {
+        color:  rgb(222, 240, 190);
+    }
+    .agro #menu li a:hover{
+        color:rgb(6, 80, 6);
+        background: white;
+    }
+    .arte #menu{
+        background-color: antiquewhite;
+        color:rgba(255, 0, 0, 0.829);
+    }
+    .arte #menu li{
+        border: solid 1px color white;
+        background-color: antiquewhite;
+    }
+    .arte #menu li a {
+        color: black;
+    }
+    .arte #menu li a:hover{
+        color:rgba(255, 0, 0, 0.829);
+        background: white;
+    }
+    .exa #menu{
+        background-color: black;
+        color:rgb(243, 243, 86);
+    }
+    .exa #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .exa #menu li a:hover{
+        color:black;
+        background: rgb(243, 243, 86);
+    }
+    .huma #menu{
+        color: goldenrod;
+    }
+    .queq #menu{
+        background-color:rgb(24, 24, 107);
+    }
+    .queq #menu li{
+        border: solid 1px color white;
+        background-color: rgb(24, 24, 107);
+    }
+    .queq #menu li a:hover{
+        color:rgb(24, 24, 107);
+        background: white;
+    }
+    .soc #menu{
+        background-color: black;
+        color:rgb(231, 120, 80);
+    }
+    .soc #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .soc #menu li a {
+        color: white;
+    }
+    .soc #menu li a:hover{
+        color:black;
+        background:rgb(233, 75, 17);
+    }
+    .vete #menu{
+        background-color:rgb(158, 77, 158);
+        color:white;
+    }
+    .vete #menu li{
+        border: solid 1px color white;
+        background-color: violet;
+    }
+    .vete #menu li a:hover{
+        color:violet;
+        background: white;
+    }
+    nav ul{
+        width: 20%;
+        padding: 0%;
+    }
+    .formulario form ol li {
+        padding-bottom: 2%;
+        width: 70%;
+        margin: 0% 15%;
+    }
+    .formulario form ol{
+        padding-inline-start: 0px;
+    }
+    .formulario p {
+        padding: 0% 27%;
+    }
+    #menu{
+        display: block;
+    }
+    .nonav{
+        display: none;
+    }
+    body{
+        width:100%;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+    }
+    .titulo {
+        margin-top: 40px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .logo{
+        height: 60%;
+        margin: 13px 10px;
+    }
+    .soc .logo {
+        height: 40%;
+        margin: 21px 10px;
+    }
+    .dere .logo{
+        height: 50%;
+        margin: 13px 10px;
+
+    }
+    .huma .logo{
+        height: 55%;
+    }
+    .leyenda{
+        height: auto;
+        clear: both;
+        flex-direction: column;
+    }
+    .index .leyenda .history {
+        width: 90%;
+        margin: 0px 17px 0px 17px;
+        height: auto;
+    }
+    .history{
+        float: none;
+        height: auto;
+    }
+    .index figure{
+        float: none;
+        height: auto;
+        margin: auto;
+        width: 50%;
+    }
+    .fechagrafica {
+        clear: both;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .graficodecampeones {
+        float: none; 
+        border: #2d3436 2px solid;
+        width: 99%;
+    }
+    .fixcha {
+        float: none;
+        width: 99%;
+        border: #2d3436 2px solid;
+        margin: 15px 0px 15px 0px;
+    }
+    .fecha {
+        padding: 25.25px 45px;
+    }
+    .historial{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+    .historial .history{
+        margin: 0px 0px 0px 33px;
+    }
+    .copaform {
+        clear: both;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 15px;
+    }
+    .copas {
+        width: 0%;
+        float: none;
+        padding: 0% 50%;
+    }
+    .formulario {
+        width: 75%;
+        height: auto;
+        float: none;
+        margin: 0px 15px 25px;
+    }
+    figure {
+        clear: both;
+        float: none; 
+        width: 80%;
+        margin: 0px 60px;
+        display: block;
+    }
+    section .historial{
+        width: 90%;
+    }
+    .mascota {
+        width: 85%;
+        height: 300px;
+        margin:0px;
+    }  
+    .listado {
+        padding: 15px 50px;
+    }
+    .historia{
+        height: auto;
+    }
+    footer ul li{
+          padding: 2px;
+    }
+}
+@media only screen and (min-width:764px) and (max-width:1200px){
+    #menu {
+        display: block;
+        background-color: darkblue;
+        width: 95%;
+        margin-block-start: 2%;
+        color: white;
+        font-size: 96%;
+        padding-block-start: 2%;
+        padding-inline-start: 5%;
+        padding-block-end: 2%;
+    }
+    .agro #menu {
+        background-color: rgb(6, 80, 6);
+    }
+    .agro #menu li{
+        border: solid 1px color white;
+        background-color:rgb(6, 80, 6);
+    }
+    .agro #menu li a {
+        color: black;
+    }
+    .agro #menu li a:hover{
+        color:rgb(6, 80, 6);
+        background: white;
+    }
+    .arte #menu{
+        background-color: antiquewhite;
+        color:rgba(255, 0, 0, 0.829);
+    }
+    .arte #menu li{
+        border: solid 1px color white;
+        background-color: antiquewhite;
+    }
+    .arte #menu li a {
+        color: black;
+    }
+    .arte #menu li a:hover{
+        color:rgba(255, 0, 0, 0.829);
+        background: white;
+    }
+    .exa #menu{
+        background-color: black;
+        color:rgb(243, 243, 86);
+    }
+    .exa #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .exa #menu li a:hover{
+        color:black;
+        background: rgb(243, 243, 86);
+    }
+    .huma #menu{
+        color: goldenrod;
+    }
+    .queq #menu{
+        background-color:rgb(24, 24, 107);
+    }
+    .queq #menu li{
+        border: solid 1px color white;
+        background-color: rgb(24, 24, 107);
+    }
+    .queq #menu li a:hover{
+        color:rgb(24, 24, 107);
+        background: white;
+    }
+    .soc #menu{
+        background-color: black;
+        color:rgb(231, 120, 80);
+    }
+    .soc #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .soc #menu li a {
+        color: white;
+    }
+    .soc #menu li a:hover{
+        color:black;
+        background:rgb(233, 75, 17);
+    }
+    .vete #menu{
+        background-color:rgb(158, 77, 158);
+        color:white;
+    }
+    .vete #menu li{
+        border: solid 1px color white;
+        background-color: violet;
+    }
+    .vete #menu li a:hover{
+        color:violet;
+        background: white;
+    }
+    .formulario form ol li {
+        padding-bottom: 2%;
+        width: 70%;
+        margin: 0% 15%;
+    }
+    .formulario form ol{
+        padding-inline-start: 0px;
+    }
+    .formulario p {
+        padding: 0% 27%;
+    }
+    .nonav{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+    body{
+        width:100%;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+    }
+    .titulo {
+        margin-top: 40px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    .logo{
+        height: 60%;
+        margin: 13px 10px;
+    }
+    .soc .logo {
+        height: 40%;
+        margin: 21px 10px;
+    }
+    .dere .logo{
+        height: 50%;
+        margin: 13px 10px;
+
+    }
+    .leyenda{
+        height: auto;
+        clear: both;
+        flex-direction: column;
+    }
+    .index .leyenda .history {
+        width: 90%;
+        margin: 0px 17px 0px 17px;
+        height: auto;
+    }
+    .history{
+        float: none;
+        height: auto;
+    }
+    .index figure{
+        float: none;
+        height: auto;
+        margin: auto;
+        width: 50%;
+    }
+    .fechagrafica {
+        clear: both;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .graficodecampeones {
+        float: none; 
+        border: #2d3436 2px solid;
+        width: 99%;
+    }
+    .fixcha {
+        float: none;
+        width: 99%;
+        border: #2d3436 2px solid;
+        margin: 15px 0px 15px 0px;
+    }
+    .fecha {
+        padding: 25.25px 70px;
+    }
+    .fixture {
+        padding: 0px 65px;
+    }
+    .historial{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+    .historial .history{
+        margin: 0px 0px 0px 33px;
+    }
+    .copaform {
+        clear: both;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 20px;
+    }
+    .copas {
+        width: 0%;
+        float: none;
+        padding: 0% 44%;
+        margin: 15px 0px;
+    }
+    .formulario {
+        width: 86%;
+        height: auto;
+        float: none;
+        margin: 0px 20px 25px;
+    }
+    figure {
+        clear: both;
+        float: none; 
+        width: 80%;
+        margin: 0px 60px;
+        display: block;
+    }
+    section .historial{
+        width: 90%;
+    }
+    .mascota {
+        width: 85%;
+        height: 300px;
+        margin:0px;
+    }  
+    .listado {
+        padding: 15px 50px;
+    }
+    .historia{
+        height: auto;
+    }
+    footer ul li{
+        padding: 2px;
+    }
+    .formS{
+        padding: 2% 4%;
+    }
+}
+@media only screen and (max-width:320px){
+    .formulario form ol li {
+        padding-bottom: 2%;
+        width: 70%;
+        margin: 0% 15%;
+    }
+    .formulario form ol{
+        padding-inline-start: 0px;
+    }
+    .formulario p {
+        padding: 0% 27%;
+    }
+    #menu {
+        display: block;
+        background-color: darkblue;
+        width: 95%;
+        margin-block-start: 2%;
+        color: white;
+        font-size: 96%;
+        padding-block-start: 2%;
+        padding-inline-start: 5%;
+        padding-block-end: 2%;
+    }
+    .agro #menu {
+        background-color: rgb(6, 80, 6);
+    }
+    .agro #menu li{
+        border: solid 1px color white;
+        background-color:rgb(6, 80, 6);
+    }
+    .agro #menu li a {
+        color: black;
+    }
+    .agro #menu li a:hover{
+        color:rgb(6, 80, 6);
+        background: white;
+    }
+    .arte #menu{
+        background-color: antiquewhite;
+        color:rgba(255, 0, 0, 0.829);
+    }
+    .arte #menu li{
+        border: solid 1px color white;
+        background-color: antiquewhite;
+    }
+    .arte #menu li a {
+        color: black;
+    }
+    .arte #menu li a:hover{
+        color:rgba(255, 0, 0, 0.829);
+        background: white;
+    }
+    .exa #menu{
+        background-color: black;
+        color:rgb(243, 243, 86);
+    }
+    .exa #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .exa #menu li a:hover{
+        color:black;
+        background: rgb(243, 243, 86);
+    }
+    .huma #menu{
+        color: goldenrod;
+    }
+    .queq #menu{
+        background-color:rgb(24, 24, 107);
+    }
+    .queq #menu li{
+        border: solid 1px color white;
+        background-color: rgb(24, 24, 107);
+    }
+    .queq #menu li a:hover{
+        color:rgb(24, 24, 107);
+        background: white;
+    }
+    .soc #menu{
+        background-color: black;
+        color:rgb(231, 120, 80);
+    }
+    .soc #menu li{
+        border: solid 1px color white;
+        background-color: black;
+    }
+    .soc #menu li a {
+        color: white;
+    }
+    .soc #menu li a:hover{
+        color:black;
+        background:rgb(233, 75, 17);
+    }
+    .vete #menu{
+        background-color:rgb(158, 77, 158);
+        color:white;
+    }
+    .vete #menu li{
+        border: solid 1px color white;
+        background-color: violet;
+    }
+    .vete #menu li a:hover{
+        color:violet;
+        background: white;
+    }
+    .nonav{
+        display: none;
+    }
+    body{
+        width:100%;
+    }
+    header{
+        width: 100%;
+        height: 75px;
+    }
+    .titulo {
+        margin-top: 40px;
+        margin-left: 15px;
+        font-size: 10px;
+    }
+    .logo{
+        height: 60%;
+        margin: 13px 10px;
+    }
+    .soc .logo {
+        height: 35%;
+        margin: 21px 10px;
+    }
+    .dere .logo{
+        height: 50%;
+        margin: 13px 10px;
+
+    }
+    .leyenda{
+        height: auto;
+        clear: both;
+        flex-direction: column;
+    }
+    .index .leyenda .history {
+        width: 90%;
+        margin: 0px 17px 0px 17px;
+        height: auto;
+    }
+    .history{
+        float: none;
+        height: auto;
+    }
+    .index figure{
+        float: none;
+        height: auto;
+        margin: auto;
+        width: 50%;
+    }
+    .fechagrafica {
+        clear: both;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .graficodecampeones {
+        float: none; 
+        border: #2d3436 2px solid;
+        width: 99%;
+    }
+    .fixcha {
+        float: none;
+        width: 99%;
+        border: #2d3436 2px solid;
+        margin: 15px 0px 15px 0px;
+    }
+    .fecha {
+        padding: 25.25px 45px;
+    }
+    .historial{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 0px;
+    }
+    .historial .history{
+        margin: 0px 0px 0px 33px;
+    }
+    .copaform {
+        clear: both;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px 15px;
+    }
+    .copas {
+        width: 0%;
+        float: none;
+        padding: 0% 35%;
+    }
+    .formulario {
+        width: 75%;
+        height: auto;
+        float: none;
+        margin: 0px 15px 25px;
+    }
+    figure {
+        clear: both;
+        float: none; 
+        width: 80%;
+        margin: 0px 35px;
+        display: block;
+    }
+    section .historial{
+        width: 90%;
+    }
+    .mascota {
+        width: 85%;
+        height: 300px;
+        margin:0px;
+    }  
+    .listado {
+        padding: 15px 50px;
+    }
+    .historia{
+        height: auto;
+    }
+    footer ul li{
+        padding: 2px;
+    }
+    .formS{
+        padding: 2% 4%;
+    }
+}
+@media only screen and (max-width: 764px) and (min-width: 320px){
+.copas {
+    width: 0%;
+    float: none;
+    padding: 0% 35%;
+    padding-block-end: 3%;
+}
+    .formS{
+        padding: 2% 4%;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 764px){
+header {
+    height: 158px;
+}
+.titulo {
+    margin-top: 70px;
+    margin-left: 64px;
+    font-size: 40px;
+}
+.logo {
+    height: 83%;
+    margin: 13px 53px;
+}
+.listado{
+padding: 48px 169px;
+}
+.formS{
+    padding: 2% 4%;
+}
+}
