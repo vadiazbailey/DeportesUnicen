@@ -56,7 +56,14 @@ class AlumnosController{
     }
    
     public function editAlumno(){
-        if(isset($_POST['nombre'])&&($_POST['apellido'])&&($_POST['DNI'])&&($_POST['email'])&&($_POST['celular'])&&($_POST['facultad'])){
+        //var_dump($_POST); die;
+        if(isset($_POST['nombre'])&&
+                ($_POST['apellido'])&&
+                ($_POST['DNI'])&&
+                ($_POST['email'])&&
+                ($_POST['celular'])&&
+                ($_POST['id'])&&
+                ($_POST['facultad'])){
 
             $id_alumno = ($_POST['id']);
             $nombre=($_POST['nombre']);
@@ -66,15 +73,15 @@ class AlumnosController{
             $celular=($_POST['celular']);
             $facultad=($_POST['facultad']);
 
+            $this->model->editAlumno ($id_alumno, $nombre, $apellido, $DNI, $email, $celular,$facultad);
+            header ("Location: " . ALUMNOS);
         }
-
-         $this->model->editAlumno ($id_alumno, $nombre, $apellido, $DNI, $email, $celular,$facultad);
-         header ("Location: " . ALUMNOS);
     }
 
     public function displayFormAlumno($id_alumno){
         $alumno = $this->model->getAlumnos($id_alumno);
-        $this->view->displayFormAlumno($alumno);
+        $facultades = $this ->modelFacultad -> getFacultades();
+        $this->view->displayFormAlumno($alumno, $facultades);
     }
 
 

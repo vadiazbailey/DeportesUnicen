@@ -21,6 +21,6 @@
 </form>
 {* crea una lista de los alumnos *}
 {foreach from=$alumnos item=alumno}
-<li>{$alumno->nombre}:{$alumno->apellido}:{$alumno->DNI}:{$alumno->email}:{$alumno->celular}-<a href='editAlumno/{$alumno->id_alumno}'>Editar</a> - <a href='eliminarAlumno/{$alumno->id_alumno}'>Eliminar</a></li>
+<li>{$alumno->nombre}:{$alumno->apellido}:{$alumno->DNI}:{$alumno->email}:{$alumno->celular}-<a href='edit/{$alumno->id_alumno}'>Editar</a> - <a href='eliminarAlumno/{$alumno->id_alumno}'>Eliminar</a></li>
 {/foreach}
 {include file ="footer.tpl"}

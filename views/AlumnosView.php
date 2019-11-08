@@ -24,8 +24,13 @@ class AlumnosView{
         $this ->smarty-> display('templates/listadoAlumnos.tpl');
     }
 
-    public function displayFormAlumno($alumno){
-        $this ->smarty-> assign ('alumno', $alumno);
+    public function displayFormAlumno($alumno, $facultades){
+        $this->smarty->assign('URL', URL_OLIMPIADAS);
+        //$this->smarty->assign('ALUMNOS', ALUMNOS);
+        //var_dump($alumno[0]->nombre); die;
+        $this->smarty->assign('titulo', 'Olimpiadas');
+        $this ->smarty->assign('facultades', $facultades);
+        $this ->smarty-> assign ('alumno', $alumno[0]);
         $this ->smarty-> display('templates/formEditarAlumno.tpl');
     }
 

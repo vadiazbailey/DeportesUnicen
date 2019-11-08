@@ -18,6 +18,7 @@ class AlumnosModel{
     }
     //Agrega un alumno
     public function addAlumno($nombre,$apellido,$DNI,$email,$celular, $facultad){
+        
         $query=$this->db->prepare('INSERT INTO alumno (nombre,apellido,DNI,email,celular,id_facultad) VALUES (?,?,?,?,?,?)');
         $query->execute(array($nombre,$apellido,$DNI,$email,$celular, $facultad));  
 
@@ -29,9 +30,11 @@ class AlumnosModel{
     }
     
      //Edita un alumno
-     public function editAlumno($id_alumno,$nombre,$apellido,$DNI,$email,$celular,$facultad){
-        $query=$this->db->prepare('UPDATE alumno SET nombre=?, apellido=?,DNI=? email=? celular=? facultad=? WHERE id_alumno=?');
-        $ok= $query->execute(array($nombre,$apellido,$DNI,$email,$celular,$facultad, $id_facultad));
+     public function editAlumno($id_alumno, $nombre, $apellido, $DNI, $email, $celular, $facultad){
+        $query=$this->db->prepare('UPDATE alumno 
+                                    SET nombre=?, apellido=?, DNI=?, email=?, celular=?, id_facultad=? 
+                                    WHERE id_alumno=?');
+        $ok= $query->execute(array($nombre,$apellido,$DNI,$email,$celular,$facultad, $id_alumno));
         if(!$ok){
             var_dump($query->errorInfo());
             die();

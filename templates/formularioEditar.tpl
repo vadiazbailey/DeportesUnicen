@@ -1,6 +1,6 @@
 {* Formulario para editar facultades *}
 {include file = "header.tpl"}
-<form class="formulario" method="POST" action="{BASE_URL}editar">
+<form class="formS" method="POST" action="{BASE_URL}editar">
      <label>Editar la facultad seleccionada</label>
     <input class= "facultad" name="facultad" type="text" value="{$facultad->nombre_facultad}"/>
     <input class="sede" name="sede" type="text" value="{$facultad->sede}"/>

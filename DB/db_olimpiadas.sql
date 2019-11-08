@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-11-2019 a las 19:01:11
+-- Tiempo de generación: 08-11-2019 a las 16:11:03
 -- Versión del servidor: 10.1.26-MariaDB
 -- Versión de PHP: 7.1.8
 
@@ -35,18 +35,18 @@ CREATE TABLE `alumno` (
   `DNI` int(20) NOT NULL,
   `email` varchar(50) NOT NULL,
   `celular` bigint(100) NOT NULL,
-  `id_facultad` int(11) NOT NULL
+  `id_facultad_fk` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `alumno`
 --
 
-INSERT INTO `alumno` (`id_alumno`, `nombre`, `apellido`, `DNI`, `email`, `celular`, `id_facultad`) VALUES
+INSERT INTO `alumno` (`id_alumno`, `nombre`, `apellido`, `DNI`, `email`, `celular`, `id_facultad_fk`) VALUES
 (4, 'Viviana Ayelén', 'Diaz Bailey', 37926567, 'ayediazbailey@gmail.com', 2494559594, 4),
 (5, 'Ailín', 'Kravos', 40291312, 'ailinkravos@gmail.com', 2494366445, 5),
-(17, 'Pedrito', 'Diaz Bailey', 7777, 'marson.maximiliano@gmail.com', 2429559, 5),
-(20, 'Viviana', 'Kravos', 19, 'prueba@gmail.com', 4, 1);
+(6, 'Maximiliano Ezequiel', 'Marsón', 37305453, 'marson.maximiliano@gmail.com', 2494337744, 3),
+(9, 'Pedrito', 'Lopez', 7777, 'pedrito@gmail.com', 66, 11);
 
 -- --------------------------------------------------------
 
@@ -76,7 +76,7 @@ INSERT INTO `facultad` (`id_facultad`, `nombre_facultad`, `sede`, `historia`) VA
 (8, 'Quequén', 'Quequén', 'El origen de su mascota es reciente, la misma es un duende. La historia del porqué se eligió esta mascota viene dada porque en los alrededores del predio, donde se encuentra la sede, está rodeado de gnomos.\r\n\r\nTomando de esta misma manera sus colores, un azul marino, medio verdoso, por el mar.'),
 (9, 'Salud', 'Olavarría', 'Se identifican con los colores verde y azul.\r\n\r\nNo tienen mascota por el momento.'),
 (10, 'Sociales', 'Olavarría', 'Sus colores son el naranja y el negro.\r\n\r\nPor el momento no tienen definida una mascota.'),
-(11, 'Veterinarias', 'Tandil', 'Son conocidos como los borrachos del tablón, no tienen una mascota bien definida, pero el resto de las facultades lo representan con un paisano. Por los equipos de futsal femenino y básquet se vienen representando con el chancho.Sus colores vienen definidos porque mundialmente la cruz violeta es representativa de la veterinaria, junto con el blanco y negro.');
+(11, 'Veterinarias', 'Tandil', 'Son conocidos como los borrachos del tablón, no tienen una mascota bien definida, pero el resto de las facultades lo representan con un paisano. Por los equipos de futsal femenino y básquet se vienen representando con el chancho.\r\n\r\nSus colores vienen definidos porque mundialmente la cruz violeta es representativa de la veterinaria, junto con el blanco y negro.');
 
 -- --------------------------------------------------------
 
@@ -109,7 +109,10 @@ INSERT INTO `usuarios` (`id_usuario`, `nombre`, `email`, `password`) VALUES
 --
 ALTER TABLE `alumno`
   ADD PRIMARY KEY (`id_alumno`),
-  ADD KEY `id_facultad` (`id_facultad`) USING BTREE;
+  ADD UNIQUE KEY `id_facultad_fk` (`id_facultad_fk`),
+  ADD UNIQUE KEY `id_facultad_fk_2` (`id_facultad_fk`),
+  ADD UNIQUE KEY `id_facultad_fk_3` (`id_facultad_fk`),
+  ADD KEY `id_facultad_fk_4` (`id_facultad_fk`);
 
 --
 -- Indices de la tabla `facultad`
@@ -131,12 +134,12 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `alumno`
 --
 ALTER TABLE `alumno`
-  MODIFY `id_alumno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id_alumno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT de la tabla `facultad`
 --
 ALTER TABLE `facultad`
-  MODIFY `id_facultad` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `id_facultad` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
@@ -150,7 +153,7 @@ ALTER TABLE `usuarios`
 -- Filtros para la tabla `alumno`
 --
 ALTER TABLE `alumno`
-  ADD CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`id_facultad`) REFERENCES `facultad` (`id_facultad`);
+  ADD CONSTRAINT `alumno_ibfk_1` FOREIGN KEY (`id_facultad_fk`) REFERENCES `facultad` (`id_facultad`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

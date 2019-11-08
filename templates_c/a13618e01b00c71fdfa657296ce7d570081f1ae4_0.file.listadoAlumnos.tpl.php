@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-08 18:39:14
+/* Smarty version 3.1.33, created on 2019-11-08 20:02:44
   from 'C:\xampp\htdocs\Deportes\templates\listadoAlumnos.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dc5a842eb43a2_52751911',
+  'unifunc' => 'content_5dc5bbd4d88561_96800628',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a13618e01b00c71fdfa657296ce7d570081f1ae4' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Deportes\\templates\\listadoAlumnos.tpl',
-      1 => 1573234463,
+      1 => 1573239760,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5dc5a842eb43a2_52751911 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dc5bbd4d88561_96800628 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -61,7 +61,7 @@ foreach ($_from as $_smarty_tpl->tpl_vars['alumno']->value) {
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->DNI;?>
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->email;?>
 :<?php echo $_smarty_tpl->tpl_vars['alumno']->value->celular;?>
--<a href='editAlumno/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
+-<a href='edit/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
 '>Editar</a> - <a href='eliminarAlumno/<?php echo $_smarty_tpl->tpl_vars['alumno']->value->id_alumno;?>
 '>Eliminar</a></li>
 <?php
