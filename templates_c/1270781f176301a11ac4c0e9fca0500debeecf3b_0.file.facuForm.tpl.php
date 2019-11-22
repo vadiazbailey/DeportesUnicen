@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-22 20:28:23
-  from 'C:\xampp\htdocs\Deportes\templates\facuForm.tpl' */
+/* Smarty version 3.1.33, created on 2019-11-22 23:26:53
+  from 'C:\xampp\htdocs\DeportesUnicen\templates\facuForm.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dd836d7cdf087_42562901',
+  'unifunc' => 'content_5dd860ad379d26_74087427',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '0e138f188e27feb0a58c77d712739ee30fe74325' => 
+    '1270781f176301a11ac4c0e9fca0500debeecf3b' => 
     array (
-      0 => 'C:\\xampp\\htdocs\\Deportes\\templates\\facuForm.tpl',
+      0 => 'C:\\xampp\\htdocs\\DeportesUnicen\\templates\\facuForm.tpl',
       1 => 1574449597,
       2 => 'file',
     ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dd836d7cdf087_42562901 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd860ad379d26_74087427 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <form class="formS" method="POST" action="insertar" enctype="multipart/form-data">
     <label>Insertar nueva facultad</label>

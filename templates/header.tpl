@@ -1,6 +1,8 @@
 <!DOCTYPE html>
     <html lang "es">
     <head>
+    {* poner la base con smarty *}
+    <base href="{$URL}">
         <meta charset="UTF-8">
         <meta name="viewport"content="width=devicewidth", initial-scale="1.0">
         {*Estilo de los logos de las redes sociales*}
@@ -19,7 +21,6 @@
         </div>
         {* <img class="logo" src="../images/logodeporte.jpg" alt="logo de deportes de la unicen" /> *}
         </header>
-
         <h2 id = "menu">Menú</h2>
         <nav class = nonav>
             <ul>
