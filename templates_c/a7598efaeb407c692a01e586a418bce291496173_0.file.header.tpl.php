@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-22 23:29:54
+/* Smarty version 3.1.33, created on 2019-11-22 23:53:04
   from 'C:\xampp2\htdocs\DeportesUnicen\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dd8616273e7a8_14872233',
+  'unifunc' => 'content_5dd866d0b137d1_41980607',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7598efaeb407c692a01e586a418bce291496173' => 
     array (
       0 => 'C:\\xampp2\\htdocs\\DeportesUnicen\\templates\\header.tpl',
-      1 => 1574460675,
+      1 => 1574462880,
       2 => 'file',
     ),
   ),
@@ -20,10 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5dd8616273e7a8_14872233 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5dd866d0b137d1_41980607 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
     <html lang "es">
     <head>
+        <base href="<?php echo $_smarty_tpl->tpl_vars['URL']->value;?>
+">
         <meta charset="UTF-8">
         <meta name="viewport"content="width=devicewidth", initial-scale="1.0">
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -46,7 +48,6 @@ logout"><p>LOGOUT</p></a>
 alumnos"><p>ALUMNO</p></a>
         </div>
                 </header>
-
         <h2 id = "menu">Menú</h2>
         <nav class = nonav>
             <ul>
