@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-22 23:26:53
+/* Smarty version 3.1.33, created on 2019-11-26 05:00:58
   from 'C:\xampp\htdocs\DeportesUnicen\templates\verIndex.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5dd860ad254d59_48878292',
+  'unifunc' => 'content_5ddca37a423d79_98442039',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b93e3e0faf90b97902d80a807e72bbe2fc328f69' => 
     array (
       0 => 'C:\\xampp\\htdocs\\DeportesUnicen\\templates\\verIndex.tpl',
-      1 => 1573222805,
+      1 => 1574740856,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_5dd860ad254d59_48878292 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ddca37a423d79_98442039 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
@@ -33,8 +33,7 @@ $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_sm
 <?php }?>
 
 <section>
-  <div class="leyenda">
-            <article class="history">
+              <article class="history">
                 <h3>Historia de las Olimpiadas</h3>
                 <p>En el a&ntildeo 1983, cuando termin&oacute el proceso militar, naci&oacute el proyecto de las Olimpiadas por iniciativa
                     de los deportistas de Veterinarias y de Econ&oacutemicas, quienes llevaron este planteo a la secretar&iacutea de
@@ -55,8 +54,10 @@ $_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_sm
                     los estudiantes, consider&aacutendola de inter&eacutes universitario, pasando la misma a ser parte del
                     presupuesto de la UNICEN para su financiaci&oacuten. </p>
             </article>
-    </div>
-</section>
+    </section>
+<figure>
+        <img class="mascota" src="./images/index/piada.png">
+</figure>
 <?php $_smarty_tpl->_subTemplateRender("file:footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }
 }

@@ -5,7 +5,7 @@
 {/if}
 
 <section>
-  <div class="leyenda">
+  {* <div class="leyenda"> *}
             <article class="history">
                 <h3>Historia de las Olimpiadas</h3>
                 <p>En el a&ntildeo 1983, cuando termin&oacute el proceso militar, naci&oacute el proyecto de las Olimpiadas por iniciativa
@@ -27,6 +27,9 @@
                     los estudiantes, consider&aacutendola de inter&eacutes universitario, pasando la misma a ser parte del
                     presupuesto de la UNICEN para su financiaci&oacuten. </p>
             </article>
-    </div>
+    {* </div> *}
 </section>
+<figure>
+        <img class="mascota" src="./images/index/piada.png">
+</figure>
 {include file = "footer.tpl"}

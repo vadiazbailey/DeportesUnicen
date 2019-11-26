@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-11-25 02:53:29
+/* Smarty version 3.1.33, created on 2019-11-26 02:00:12
   from 'C:\xampp\htdocs\DeportesUnicen\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5ddb3419495750_85446657',
+  'unifunc' => 'content_5ddc791c3c6af8_03202397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ccb50ea088016a8c7abf504d987dc3eb25a1d6d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\DeportesUnicen\\templates\\header.tpl',
-      1 => 1574646738,
+      1 => 1574730010,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ddb3419495750_85446657 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ddc791c3c6af8_03202397 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
     <html lang "es">
     <head>
@@ -48,7 +48,7 @@ logout"><p>LOGOUT</p></a>
             <a class ="alumnos"href="<?php echo $_smarty_tpl->tpl_vars['URL']->value;?>
 alumnos"><p>ALUMNO</p></a>
         </div>
-                </header>
+        </header>
         <h2 id = "menu">Menú</h2>
         <nav class = nonav>
             <ul>
@@ -58,7 +58,7 @@ if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['facultad']->value) {
 ?>
                     <li><a href="<?php echo $_smarty_tpl->tpl_vars['URL']->value;?>
-verMas/<?php echo $_smarty_tpl->tpl_vars['facultad']->value->id_facultad;?>
+Facultad/<?php echo $_smarty_tpl->tpl_vars['facultad']->value->id_facultad;?>
 "><?php echo $_smarty_tpl->tpl_vars['facultad']->value->nombre_facultad;?>
 </a></li>
                 <?php

@@ -40,15 +40,19 @@ class FacultadesModel{
     //Mueve el archivo
     private function moveFile($imagen){
         $filepath= "img/". uniqid(). ".".strtolower(pathinfo($imagen["name"], PATHINFO_EXTENSION));
-        $filepath= "images/facultad". uniqid(). ".".strtolower(pathinfo($imagen["name"], PATHINFO_EXTENSION));
+        $filepath= "images/facultad/". uniqid(). ".".strtolower(pathinfo($imagen["name"], PATHINFO_EXTENSION));
         move_uploaded_file($imagen['tmp_name'], $filepath);
         
         return $filepath;
     }
     //Edita una facultad
-    public function editFacultad($id_facultad,$facultad,$sede,$historia){
-        $query=$this->db->prepare('UPDATE facultad SET nombre_facultad=?, sede=?,historia=? WHERE id_facultad=?');
-        $ok= $query->execute(array($facultad,$sede,$historia,$id_facultad));
+    public function editFacultad($id_facultad,$facultad,$sede,$historia, $imagen=null){
+        $filepath=null;
+        if($imagen){
+            $filepath= $this->moveFile($imagen);
+        }
+        $query=$this->db->prepare('UPDATE facultad SET nombre_facultad=?, sede=?,historia=?, imagen=? WHERE id_facultad=?');
+        $ok= $query->execute(array($facultad,$sede,$historia,$imagen,$id_facultad));
         if(!$ok){
             var_dump($query->errorInfo());
             die();

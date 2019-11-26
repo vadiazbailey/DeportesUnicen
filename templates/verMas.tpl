@@ -1,7 +1,7 @@
 {include file = "header.tpl"}
 <section>
-   <h3>{$facultad->nombre_facultad}</h3>
-    <h4>{$facultad->sede}</h4>
+    <h1>{$facultad->nombre_facultad}</h3>
+    <h4>Sede: {$facultad->sede}</h4>
     <p>{$facultad->historia}</p>
 </section>
 <figure>

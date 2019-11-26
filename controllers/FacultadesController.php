@@ -53,17 +53,18 @@ class FacultadesController{
         }
         header ("Location: " . URL_OLIMPIADAS);
     }
+    
     //Función que edita una facultad
-  
     public function editFacultad(){
         $this->userController->checklogin();
-        if(isset($_POST['facultad'])&&($_POST['sede'])&&($_POST['historia'])){
+        if(isset($_POST['facultad'])&&($_POST['sede'])&&($_POST['historia'])&&($_POST['imagen'])){
             $id_facultad = ($_POST['id']);
             $facultad=($_POST['facultad']);
             $sede=($_POST['sede']);
             $historia=($_POST['historia']);
+            $imagen=($_POST['imagen']);
         }
-         $this->model->editFacultad($id_facultad, $facultad, $sede, $historia);
+         $this->model->editFacultad($id_facultad, $facultad, $sede, $historia, $imagen);
          header ("Location: " . URL_OLIMPIADAS);
     }
     

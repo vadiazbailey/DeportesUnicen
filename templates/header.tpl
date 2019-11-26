@@ -19,13 +19,12 @@
             <a class ="salir"href="{$URL}logout"><p>LOGOUT</p></a>
             <a class ="alumnos"href="{$URL}alumnos"><p>ALUMNO</p></a>
         </div>
-        {* <img class="logo" src="../images/logodeporte.jpg" alt="logo de deportes de la unicen" /> *}
         </header>
         <h2 id = "menu">Menú</h2>
         <nav class = nonav>
             <ul>
                 {foreach from= $facultades item=facultad}
-                    <li><a href="{$URL}verMas/{$facultad->id_facultad}">{$facultad->nombre_facultad}</a></li>
+                    <li><a href="{$URL}Facultad/{$facultad->id_facultad}">{$facultad->nombre_facultad}</a></li>
                 {/foreach}
             </ul>
         </nav>

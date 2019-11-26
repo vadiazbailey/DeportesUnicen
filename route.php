@@ -83,7 +83,7 @@ $userController = new UserController();
             $alumnosController->editAlumno();
             die();
            }     
-        elseif($url[0]=="verMas"){
+        elseif($url[0]=="Facultad"){
             $facultadesController->verMas($url[1]);
         }
     }
