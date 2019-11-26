@@ -83,7 +83,8 @@ footer ul li a{
 }
 section{
     clear: both;
-    width: 100%;
+    float: left;
+    width: 68%;
     height: auto;
 }
 .historial{
@@ -164,7 +165,6 @@ figure{
 .mascota{
     width: 100%;
     height: 500px;
-    margin: 80px 0px;
 }
 .leyenda .history{
     width: 65%;
@@ -262,311 +262,311 @@ table, tr, td{
 .index footer{
     width: 100%;
 }
-.arte header{
+.Arte header{
     background-color: rgba(255, 0, 0, 0.829);
     color: white;
 }
-.arte nav{
+.Arte nav{
     background-color: antiquewhite;
     color:rgba(255, 0, 0, 0.829);
 }
-.arte nav li{
+.Arte nav li{
     border: solid 1px color white;
     background-color: antiquewhite;
 }
-.arte nav li a {
+.Arte nav li a {
     color: rgba(255, 0, 0, 0.829);;
 }
-.arte nav li a:hover{
+.Arte nav li a:hover{
     color:rgba(255, 0, 0, 0.829);
     background: white;
 }
-.arte footer{
+.Arte footer{
     background-color: rgba(255, 0, 0, 0.829);
 }
-.arte footer li{
+.Arte footer li{
     border: solid 1px color white;
     background-color: rgba(255, 0, 0, 0.829);
 }
-.arte .listadodeportes{
+.Arte .listadodeportes{
     background-color: antiquewhite;
 }
-.arte .listadodeportes a{
+.Arte .listadodeportes a{
     color: rgba(255, 0, 0, 0.829);;
 }
-.econ header{
+.Económicas header{
     background-color: rgb(17, 17, 128);
     color: white;
 }
-.econ nav{
+.Económicas nav{
     background-color:  rgb(11, 11, 92);
     color:white;
 }
-.econ nav li{
+.Económicas nav li{
     border: solid 1px color white;
     background-color:  rgb(11, 11, 92);
 }
-.econ nav li a:hover{
+.Económicas nav li a:hover{
     color: rgb(11, 11, 92);
     background: white;
 }
-.econ .listadodeportes{
+.Económicas .listadodeportes{
     background-color: rgb(17, 17, 128);
 }
-.econ .listadodeportes a{
+.Económicas .listadodeportes a{
     color: white;
 }
-.vete header{
+.Veterinarias header{
     background-color:rgb(90, 11, 90);
     color: white;
 }
-.vete nav{
+.Veterinarias nav{
     background-color:violet;
     color:white;
 }
-.vete nav li{
+.Veterinarias nav li{
     border: solid 1px color white;
     background-color: violet;
 }
-.vete nav li a:hover{
+.Veterinarias nav li a:hover{
     color:violet;
     background: white;
 }
-.vete footer{
+.Veterinarias footer{
     background-color:rgb(90, 11, 90) ;
     color: white ;
 }
-.vete footer li{
+.Veterinarias footer li{
     border: solid 1px color white;
     background-color:rgb(90, 11, 90);
 }
-.vete .listadodeportes{
+.Veterinarias .listadodeportes{
     background-color: violet;
 }
-.vete .listadodeportes a{
+.Veterinarias .listadodeportes a{
     color: white;
 }
-.exa header{
+.Exactas header{
     background-color:rgb(250, 250, 16);
 }
-.exa header h1{
+.Exactas header h1{
     color: black;
 }
-.exa nav{
+.Exactas nav{
     background-color: black;
     color:rgb(243, 243, 86);
 }
-.exa nav li{
+.Exactas nav li{
     border: solid 1px color white;
     background-color: black;
 }
-.exa nav li a:hover{
+.Exactas nav li a:hover{
     color:black;
     background: rgb(243, 243, 86);
 }
-.exa footer{
+.Exactas footer{
     background-color: black;
     color: rgb(250, 250, 16);
 }
-.exa footer li{
+.Exactas footer li{
     border: solid 1px color white;
     background-color:black;
 }
-.exa .listadodeportes{
+.Exactas .listadodeportes{
     background-color: rgb(250, 250, 16);
 }
-.exa .listadodeportes a{
+.Exactas .listadodeportes a{
     color: black;
 }
-.dere header{
+.Derecho header{
     background-color: magenta;
     color: white;
 }
-.dere header h1{
+.Derecho header h1{
     color: blue;
 }
-.dere nav{
+.Derecho nav{
     background-color: blue;
     color:blue;
 }
-.dere nav li{
+.Derecho nav li{
     border: solid 1px color white;
     background-color:blue;
 }
-.dere nav li a {
+.Derecho nav li a {
     color: white;
 }
-.dere nav li a:hover{
+.Derecho nav li a:hover{
     color:magenta;
     background: white;
 }
-.dere footer{
+.Derecho footer{
     background-color:rgb(172, 23, 85);
 }
-.dere footer li{
+.Derecho footer li{
     border: solid 1px color white;
     background-color: rgb(172, 23, 85);
 }
-.dere .listadodeportes{
+.Derecho .listadodeportes{
     background-color: rgb(65, 62, 62);
 }
-.dere .listadodeportes a{
+.Derecho .listadodeportes a{
     color: white;
 }
-.agro header{
+.Agronomía header{
     background-color: rgb(139, 10, 38) ;
     color: white;
 }
-.agro nav{
+.Agronomía nav{
     background-color: rgb(6, 80, 6);
 }
-.agro nav li{
+.Agronomía nav li{
     border: solid 1px color white;
     background-color:rgb(6, 80, 6);
 }
-.agro nav li a {
+.Agronomía nav li a {
     color: rgb(222, 240, 190);
 }
-.agro nav li a:hover{
+.Agronomía nav li a:hover{
     color:rgb(6, 80, 6);
     background: white;
 }
-.agro footer{
+.Agronomía footer{
     background-color: rgb(139, 10, 38);
     color:rgb(139, 10, 38);
 }
-.agro footer li{
+.Agronomía footer li{
     border: solid 1px color white;
     background-color:rgb(139, 10, 38);
 }
-.agro .listadodeportes{
+.Agronomía .listadodeportes{
     background-color: rgb(6, 80, 6);
 }
-.agro .listadodeportes a{
+.Agronomía .listadodeportes a{
     color: white;
 }
-.huma header{
+.Humanas header{
     background-color:rgb(9, 9, 107);
 }
-.huma header h1{
+.Humanas header h1{
     color: goldenrod;
 }
-.huma nav{
+.Humanas nav{
     background-color: goldenrod;
 }
-.huma nav li{
+.Humanas nav li{
     border: solid 1px color white;
     background-color: goldenrod;
 }
-.huma nav li a {
+.Humanas nav li a {
     color: black;
 }
-.huma nav li a:hover{
+.Humanas nav li a:hover{
     color:rgb(224, 224, 63); 
     background: white;
 }
-.huma footer{
+.Humanas footer{
     background-color: goldenrod;
 }
-.huma footer li{
+.Humanas footer li{
     border: solid 1px color white;
     background-color: goldenrod;
 }
-.huma .listadodeportes{
+.Humanas .listadodeportes{
     background-color: rgb(9, 9, 107);
 }
-.huma .listadodeportes a{
+.Humanas .listadodeportes a{
     color: white;
 }
-.inge header{
+.Ingeniería header{
     background-color: rgb(4, 105, 4);
 }
-.inge nav{
+.Ingeniería nav{
     background-color: blue;
 }
-.inge nav li{
+.Ingeniería nav li{
     border: solid 1px color white;
     background-color: blue;
 }
-.inge nav li a {
+.Ingeniería nav li a {
     color:white;
 }
-.inge nav li a:hover{
+.Ingeniería nav li a:hover{
     color: rgb(4, 105, 4);
     background: white;
 }
-.inge footer{
+.Ingeniería footer{
     background-color: rgb(4, 105, 4);
 }
-.inge footer li{
+.Ingeniería footer li{
     border: solid 1px color white;
     background-color: rgb(4, 105, 4);
 }
-.inge .listadodeportes{
+.Ingeniería .listadodeportes{
     background-color: blue;
 }
-.inge .listadodeportes a{
+.Ingeniería .listadodeportes a{
     color: white;
 }
-.queq header{
+.Quequén header{
     background-color: rgb(16, 167, 146, 0.829);
     color: white;
 }
-.queq nav{
+.Quequén nav{
     background-color:rgb(24, 24, 107);
 }
-.queq nav li{
+.Quequén nav li{
     border: solid 1px color white;
     background-color: rgb(24, 24, 107);
 }
-.queq nav li a:hover{
+.Quequén nav li a:hover{
     color:rgb(24, 24, 107);
     background: white;
 }
-.queq footer{
+.Quequén footer{
     background-color: rgb(16, 167, 146, 0.829);
 }
-.queq footer li{
+.Quequén footer li{
     border: solid 1px color white;
     background-color: rgb(16, 167, 146, 0.829);
 }
-.queq .listadodeportes{
+.Quequén .listadodeportes{
     background-color: rgb(24, 24, 107);
 }
-.queq .listadodeportes a{
+.Quequén .listadodeportes a{
     color: white;
 }
-.soc header{
+.Sociales header{
     background-color: rgb(233, 75, 17);
 }
-.soc header h1{
+.Sociales header h1{
     color: black;
 }
-.soc nav{
+.Sociales nav{
     background-color: black;
 }
-.soc nav li{
+.Sociales nav li{
     border: solid 1px color white;
     background-color: black;
 }
-.soc nav li a {
+.Sociales nav li a {
     color: white;
 }
-.soc nav li a:hover{
+.Sociales nav li a:hover{
     color:black;
     background:rgb(233, 75, 17);
 }
-.soc footer{
+.Sociales footer{
     background-color: rgb(233, 75, 17);
 }
-.soc footer li{
+.Sociales footer li{
     border: solid 1px color white;
     background-color: rgb(233, 75, 17);
 }
-.soc .listadodeportes{
+.Sociales .listadodeportes{
     background-color: black;
 }
-.soc .listadodeportes a{
+.Sociales .listadodeportes a{
     color: white;
 }
 canvas{
@@ -587,85 +587,85 @@ body{
         padding-inline-start: 5%;
         padding-block-end: 2%;
     }
-    .agro #menu {
+    .Agronomía #menu {
         background-color: rgb(6, 80, 6);
     }
-    .agro #menu li{
+    .Agronomía #menu li{
         border: solid 1px color white;
         background-color:rgb(6, 80, 6);
     }
-    .agro #menu li a {
+    .Agronomía #menu li a {
         color:  rgb(222, 240, 190);
     }
-    .agro #menu li a:hover{
+    .Agronomía #menu li a:hover{
         color:rgb(6, 80, 6);
         background: white;
     }
-    .arte #menu{
+    .Arte #menu{
         background-color: antiquewhite;
         color:rgba(255, 0, 0, 0.829);
     }
-    .arte #menu li{
+    .Arte #menu li{
         border: solid 1px color white;
         background-color: antiquewhite;
     }
-    .arte #menu li a {
+    .Arte #menu li a {
         color: black;
     }
-    .arte #menu li a:hover{
+    .Arte #menu li a:hover{
         color:rgba(255, 0, 0, 0.829);
         background: white;
     }
-    .exa #menu{
+    .Exactas #menu{
         background-color: black;
         color:rgb(243, 243, 86);
     }
-    .exa #menu li{
+    .Exactas #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .exa #menu li a:hover{
+    .Exactas #menu li a:hover{
         color:black;
         background: rgb(243, 243, 86);
     }
-    .huma #menu{
+    .Humanas #menu{
         color: goldenrod;
     }
-    .queq #menu{
+    .Quequén #menu{
         background-color:rgb(24, 24, 107);
     }
-    .queq #menu li{
+    .Quequén #menu li{
         border: solid 1px color white;
         background-color: rgb(24, 24, 107);
     }
-    .queq #menu li a:hover{
+    .Quequén #menu li a:hover{
         color:rgb(24, 24, 107);
         background: white;
     }
-    .soc #menu{
+    .Sociales #menu{
         background-color: black;
         color:rgb(231, 120, 80);
     }
-    .soc #menu li{
+    .Sociales #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .soc #menu li a {
+    .Sociales #menu li a {
         color: white;
     }
-    .soc #menu li a:hover{
+    .Sociales #menu li a:hover{
         color:black;
         background:rgb(233, 75, 17);
     }
-    .vete #menu{
+    .Veterinarias #menu{
         background-color:rgb(158, 77, 158);
         color:white;
     }
-    .vete #menu li{
+    .Veterinarias #menu li{
         border: solid 1px color white;
         background-color: violet;
     }
-    .vete #menu li a:hover{
+    .Veterinarias #menu li a:hover{
         color:violet;
         background: white;
     }
@@ -706,16 +706,16 @@ body{
         height: 60%;
         margin: 13px 10px;
     }
-    .soc .logo {
+    .Sociales .logo {
         height: 40%;
         margin: 21px 10px;
     }
-    .dere .logo{
+    .Derecho .logo{
         height: 50%;
         margin: 13px 10px;
 
     }
-    .huma .logo{
+    .Humanas .logo{
         height: 55%;
     }
     .leyenda{
@@ -825,85 +825,85 @@ body{
         padding-inline-start: 5%;
         padding-block-end: 2%;
     }
-    .agro #menu {
+    .Agronomía #menu {
         background-color: rgb(6, 80, 6);
     }
-    .agro #menu li{
+    .Agronomía #menu li{
         border: solid 1px color white;
         background-color:rgb(6, 80, 6);
     }
-    .agro #menu li a {
+    .Agronomía #menu li a {
         color: black;
     }
-    .agro #menu li a:hover{
+    .Agronomía #menu li a:hover{
         color:rgb(6, 80, 6);
         background: white;
     }
-    .arte #menu{
+    .Arte #menu{
         background-color: antiquewhite;
         color:rgba(255, 0, 0, 0.829);
     }
-    .arte #menu li{
+    .Arte #menu li{
         border: solid 1px color white;
         background-color: antiquewhite;
     }
-    .arte #menu li a {
+    .Arte #menu li a {
         color: black;
     }
-    .arte #menu li a:hover{
+    .Arte #menu li a:hover{
         color:rgba(255, 0, 0, 0.829);
         background: white;
     }
-    .exa #menu{
+    .Exactas #menu{
         background-color: black;
         color:rgb(243, 243, 86);
     }
-    .exa #menu li{
+    .Exactas #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .exa #menu li a:hover{
+    .Exactas #menu li a:hover{
         color:black;
         background: rgb(243, 243, 86);
     }
-    .huma #menu{
+    .Humanas #menu{
         color: goldenrod;
     }
-    .queq #menu{
+    .Quequén #menu{
         background-color:rgb(24, 24, 107);
     }
-    .queq #menu li{
+    .Quequén #menu li{
         border: solid 1px color white;
         background-color: rgb(24, 24, 107);
     }
-    .queq #menu li a:hover{
+    .Quequén #menu li a:hover{
         color:rgb(24, 24, 107);
         background: white;
     }
-    .soc #menu{
+    .Sociales #menu{
         background-color: black;
         color:rgb(231, 120, 80);
     }
-    .soc #menu li{
+    .Sociales #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .soc #menu li a {
+    .Sociales #menu li a {
         color: white;
     }
-    .soc #menu li a:hover{
+    .Sociales #menu li a:hover{
         color:black;
         background:rgb(233, 75, 17);
     }
-    .vete #menu{
+    .Veterinarias #menu{
         background-color:rgb(158, 77, 158);
         color:white;
     }
-    .vete #menu li{
+    .Veterinarias #menu li{
         border: solid 1px color white;
         background-color: violet;
     }
-    .vete #menu li a:hover{
+    .Veterinarias #menu li a:hover{
         color:violet;
         background: white;
     }
@@ -940,11 +940,11 @@ body{
         height: 60%;
         margin: 13px 10px;
     }
-    .soc .logo {
+    .Sociales .logo {
         height: 40%;
         margin: 21px 10px;
     }
-    .dere .logo{
+    .Derecho .logo{
         height: 50%;
         margin: 13px 10px;
 
@@ -1074,85 +1074,85 @@ body{
         padding-inline-start: 5%;
         padding-block-end: 2%;
     }
-    .agro #menu {
+    .Agronomía #menu {
         background-color: rgb(6, 80, 6);
     }
-    .agro #menu li{
+    .Agronomía #menu li{
         border: solid 1px color white;
         background-color:rgb(6, 80, 6);
     }
-    .agro #menu li a {
+    .Agronomía #menu li a {
         color: black;
     }
-    .agro #menu li a:hover{
+    .Agronomía #menu li a:hover{
         color:rgb(6, 80, 6);
         background: white;
     }
-    .arte #menu{
+    .Arte #menu{
         background-color: antiquewhite;
         color:rgba(255, 0, 0, 0.829);
     }
-    .arte #menu li{
+    .Arte #menu li{
         border: solid 1px color white;
         background-color: antiquewhite;
     }
-    .arte #menu li a {
+    .Arte #menu li a {
         color: black;
     }
-    .arte #menu li a:hover{
+    .Arte #menu li a:hover{
         color:rgba(255, 0, 0, 0.829);
         background: white;
     }
-    .exa #menu{
+    .Exactas #menu{
         background-color: black;
         color:rgb(243, 243, 86);
     }
-    .exa #menu li{
+    .Exactas #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .exa #menu li a:hover{
+    .Exactas #menu li a:hover{
         color:black;
         background: rgb(243, 243, 86);
     }
-    .huma #menu{
+    .Humanas #menu{
         color: goldenrod;
     }
-    .queq #menu{
+    .Quequén #menu{
         background-color:rgb(24, 24, 107);
     }
-    .queq #menu li{
+    .Quequén #menu li{
         border: solid 1px color white;
         background-color: rgb(24, 24, 107);
     }
-    .queq #menu li a:hover{
+    .Quequén #menu li a:hover{
         color:rgb(24, 24, 107);
         background: white;
     }
-    .soc #menu{
+    .Sociales #menu{
         background-color: black;
         color:rgb(231, 120, 80);
     }
-    .soc #menu li{
+    .Sociales #menu li{
         border: solid 1px color white;
         background-color: black;
     }
-    .soc #menu li a {
+    .Sociales #menu li a {
         color: white;
     }
-    .soc #menu li a:hover{
+    .Sociales #menu li a:hover{
         color:black;
         background:rgb(233, 75, 17);
     }
-    .vete #menu{
+    .Veterinarias #menu{
         background-color:rgb(158, 77, 158);
         color:white;
     }
-    .vete #menu li{
+    .Veterinarias #menu li{
         border: solid 1px color white;
         background-color: violet;
     }
-    .vete #menu li a:hover{
+    .Veterinarias #menu li a:hover{
         color:violet;
         background: white;
     }
@@ -1175,11 +1175,11 @@ body{
         height: 60%;
         margin: 13px 10px;
     }
-    .soc .logo {
+    .Sociales .logo {
         height: 35%;
         margin: 21px 10px;
     }
-    .dere .logo{
+    .Derecho .logo{
         height: 50%;
         margin: 13px 10px;
 

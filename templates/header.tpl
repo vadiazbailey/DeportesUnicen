@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="{$URL}css/style.css">
         <title>{$titulo}</title>    
     </head>
-    <body>
+    <body class="{$facultad->nombre_facultad}">
         <header>
         <a href="{BASE_URL}" ><h1 class="titulo">Olimpiadas</h1></a>
         <div class= "log">
